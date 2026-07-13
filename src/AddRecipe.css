@@ -1,0 +1,35 @@
+.addRecipe{
+    width:500px;
+    margin:40px auto;
+}
+
+.addRecipe h1{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.addRecipe form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.addRecipe input,
+.addRecipe select,
+.addRecipe textarea{
+    padding:12px;
+    font-size:16px;
+}
+
+.addRecipe textarea{
+    height:120px;
+}
+
+.addRecipe button{
+    padding:12px;
+    background:green;
+    color:white;
+    border:none;
+    cursor:pointer;
+    border-radius:8px;
+}

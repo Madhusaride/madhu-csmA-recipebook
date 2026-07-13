@@ -1,0 +1,53 @@
+.deleteRecipe{
+    width:500px;
+    margin:60px auto;
+    text-align:center;
+}
+
+.deleteBox{
+    padding:30px;
+    border:2px solid #ddd;
+    border-radius:15px;
+    box-shadow:0 0 10px lightgray;
+}
+
+.deleteBox h2{
+    margin-bottom:20px;
+}
+
+.deleteBox p{
+    font-size:18px;
+    margin-bottom:30px;
+}
+
+.buttons{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+}
+
+.cancelBtn{
+    padding:12px 25px;
+    border:none;
+    background:gray;
+    color:white;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.deleteBtn{
+    padding:12px 25px;
+    border:none;
+    background:red;
+    color:white;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.cancelBtn:hover{
+    background:#555;
+}
+
+.deleteBtn:hover{
+    background:darkred;
+}

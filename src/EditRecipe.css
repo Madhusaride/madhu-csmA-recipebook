@@ -1,0 +1,35 @@
+.editRecipe{
+    width:500px;
+    margin:40px auto;
+}
+
+.editRecipe h1{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.editRecipe form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.editRecipe input,
+.editRecipe select,
+.editRecipe textarea{
+    padding:12px;
+    font-size:16px;
+}
+
+.editRecipe textarea{
+    height:120px;
+}
+
+.editRecipe button{
+    padding:12px;
+    background:orange;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+}

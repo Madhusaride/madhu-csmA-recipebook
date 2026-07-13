@@ -1,0 +1,113 @@
+.recipes{
+    height:100vh;
+}
+.topnav{
+    height:70px;
+    background-color:orange;
+    display:flex;
+    align-items:center;
+    gap:20px;
+    padding:10px;
+    position:relative;
+}
+.logo{
+    color:white;
+    font-size:22px;
+}
+.search{
+    width:300px;
+    padding:10px;
+    border:none;
+    border-radius:20px;
+}
+
+.filter{
+    position:relative;
+}
+.filterBtn{
+    padding:10px 20px;
+    border:none;
+    border-radius:20px;
+    background-color:white;
+    color:orange;
+    cursor:pointer;
+}
+.filterBox{
+    position:absolute;
+    top:45px;
+    left:0;
+    background:white;
+    width:160px;
+    padding:10px;
+    border-radius:10px;
+}
+.filterBox p{
+    padding:10px;
+    margin:0;
+}
+
+.filterBox p:hover{
+    background-color:orange;
+    color:white;
+}
+.main{
+    display:flex;
+}
+.sidenav{
+    width:220px;
+    height:calc(100vh - 70px);
+    background-color:#fff0c2;
+    padding:15px;
+}
+.homeIcon{
+    font-size:30px;
+    margin-bottom:30px;
+}
+.sidenav p{
+    font-size:18px;
+    padding:12px;
+    cursor:pointer;
+}
+.sidenav p:hover{
+    background-color:orange;
+    color:white;
+    border-radius:10px;
+}
+.content {
+  display: grid;
+  grid-template-columns: repeat(3, 220px);
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+  flex: 1;
+}
+.categoryBar{
+    display:flex;
+    gap:15px;
+    padding:15px 25px;
+    background:#fff8e6;
+    border-bottom:1px solid #ddd;
+}
+
+.categoryBtn{
+    border:none;
+    background:white;
+    padding:10px 18px;
+    border-radius:20px;
+    cursor:pointer;
+    font-size:15px;
+}
+
+.categoryBtn:hover{
+    background:orange;
+    color:white;
+}
+
+.activeCategory{
+    border:none;
+    background:orange;
+    color:white;
+    padding:10px 18px;
+    border-radius:20px;
+    cursor:pointer;
+}

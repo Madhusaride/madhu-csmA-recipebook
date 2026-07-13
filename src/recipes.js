@@ -217,24 +217,28 @@ steps: [
     category: "Non Veg",
     subCategory: "Soup",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTJKjEu0DBsPGWLLFNTSH_28MtsxpTGlLzeuFJo6mWQw&s=10",
-    ingredients: [
-  "Curd - 2 Cups",
+   ingredients: [
+  "Chicken - 250g",
   "Onion - 1",
-  "Cucumber - 1",
-  "Green Chilli - 1",
-  "Coriander Leaves - 2 tbsp",
-  "Salt - To Taste"
+  "Garlic - 3 Cloves",
+  "Ginger - 1 tsp",
+  "Black Pepper - 1 tsp",
+  "Salt - To Taste",
+  "Butter - 1 tbsp",
+  "Water - 3 Cups",
+  "Coriander Leaves - 2 tbsp"
 ],
 
 steps: [
-  "Chop onion and cucumber finely.",
-  "Add to curd.",
-  "Mix green chilli and coriander.",
-  "Add salt.",
-  "Mix well.",
-  "Serve chilled."
-]
-  },
+  "Heat butter in a pan.",
+  "Add garlic, ginger, and onion.",
+  "Add chicken and cook for 5 minutes.",
+  "Pour water into the pan.",
+  "Add salt and black pepper.",
+  "Boil for 20 minutes.",
+  "Garnish with coriander leaves.",
+  "Serve hot."
+],
   {
     id: 10,
     name: "Mutton Soup",
